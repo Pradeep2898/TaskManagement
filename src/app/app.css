@@ -1,0 +1,30 @@
+body{
+  font-family: "Lato";
+}
+div[class*="8"] {
+  border-right: 1px dotted black;
+}
+#add {
+  float: right;
+  color: maroon;
+  border: none;
+  background: none;
+  outline: none;
+}
+#add:hover {
+  color: red;
+}
+.form-control {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue
+}
+.form-control:focus {
+  border-color: red;
+}
+.form-group i{ 
+  position: absolute;
+  left: 15px; 
+  top: 25px; 
+  color: gray; 
+} 
