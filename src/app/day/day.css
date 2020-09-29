@@ -1,0 +1,17 @@
+body{
+  font-family: "Lato";
+}
+.summary {
+  padding: 5px;
+  background-color: #c0c0c0;
+  border-radius: 4px;
+}
+#weather,#temperature{
+  float: left;
+}
+#temperature{
+  padding-top: 4px;
+}
+#weather{
+  padding-top: 13px;
+}

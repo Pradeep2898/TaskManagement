@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<head>
+  <script src="https://kit.fontawesome.com/2ee7bde2cf.js"></script>
+</head>
+<body>
+<h3><ng-content></ng-content></h3>
+<hr>
+<ng-container *ngIf="(tasks)>=5;then busy;else notSoBusy"></ng-container><br>
+<ng-template #busy>
+ You seems busy today. You have <b>{{tasks}}</b> tasks to complete.
+</ng-template>
+<ng-template #notSoBusy>
+ It seems like you have lot of free time. You have <b>{{tasks}}</b> tasks to complete.
+</ng-template>
+<i id="weather" class="fas fa-cloud-moon"></i>
+<h4> {{data.weather}} </h4>
+<i id="temperature" class='fas fa-temperature-high'></i>
+<h4> {{data.temperature}} </h4>
+<p class="summary">{{data.forecast}}</p>
+</body>
