@@ -1,0 +1,32 @@
+.desc{
+  padding: 10px;
+  background-color: #c0c0c0;
+  border-radius: 4px;
+}
+#remove{
+  padding-top: 5px;
+  float: right;
+  color: red; 
+  background: none;
+  outline: none;
+  border: none;
+}
+#remove:hover{
+  opacity: 0.5;
+}
+#direct{
+  padding-top: 3px;
+  float: right;
+  color: blue; 
+  background: none;
+  outline: none;
+  border: none;
+}
+#direct:hover{
+  color: coral;
+}
+.location {
+  border-radius: 3px;
+  border: 1px solid brown;
+  padding: 5px;
+}

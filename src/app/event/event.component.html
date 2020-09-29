@@ -1,0 +1,13 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<button id="remove" class="fa fa-minus-square" (click)="handleDeleteClick()"></button>
+<h4>{{value.Name}}</h4>
+<hr>
+<h5> {{value.Time}} @ {{value.Location}} </h5>
+<div class="location">
+<button id="direct" class="fa fa-location-arrow" aria-hidden="true"></button>
+<p> Location: {{value.Location}} </p>
+</div>
+<p *ngIf="value.Agenda"> Agenda: {{value.Agenda}}</p>
+<p *ngIf="value.Description" class="desc"> Description: {{value.Description}}</p>
